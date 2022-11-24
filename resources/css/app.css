@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+:root {
+    --color-one: #F5F5F5;
+    --color-two: #F05454;
+    --color-three: #30475E;
+    --color-four: #121212;
+}
+*{
+    transition: 150ms ease-in-out;
+}
+body{
+    /* background-color: var(--color-four); */
+    background-image: url("/public/img/gayrimesgul_light.png");
+    background-color: var(--color-three);
+    background-repeat: no-repeat;
+    background-position: center 20px;
+    background-attachment: fixed;
+    background-size: contain;
+    color: var(--color-one);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    min-height: 100vh;
+}
+
+button {
+    background-color: var(--color-three);
+    padding: 8px 16px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: rgba(93, 142, 255, 0.448);
+}
+
+.Navlink {
+    color: var(--color-one);
+    margin: 16px 10px;
+    font-size: 24px;
+    padding: 16px 24px;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+
+.Navlink:hover {
+    background-color: #30475E50;
+    color: var(--color-one);
+    box-shadow: 0px 0px 10px var(--color-three);
+
+}
+.Navlink:active{
+    background-color: var(--color-three);
+}
+.nav-active{
+    font-weight: bold;
+}
